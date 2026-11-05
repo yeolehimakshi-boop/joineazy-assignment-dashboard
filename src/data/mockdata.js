@@ -50,7 +50,7 @@ export const initialAssignments = [
     description:
       "Build a small React application using components and props.",
     dueDate: "2026-11-08",
-    driveLink: "https://drive.google.com/",
+    driveLink: "https://drive.google.com/drive/u/0/",
     createdBy: 1,
     assignedTo: [3, 4, 5, 6, 7],
     submissions: {},
@@ -61,7 +61,7 @@ export const initialAssignments = [
     description:
       "Complete the assigned JavaScript problems covering arrays and functions.",
     dueDate: "2026-11-10",
-    driveLink: "https://drive.google.com/",
+    driveLink: "https://drive.google.com/drive/u/0/",
     createdBy: 1,
     assignedTo: [3, 4, 5],
     submissions: {},
