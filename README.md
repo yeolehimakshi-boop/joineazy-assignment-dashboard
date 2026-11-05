@@ -1,16 +1,58 @@
-# React + Vite
+# Joineazy Assignment & Review Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Assignment & Review Dashboard built with React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Login
+- Mock login with seeded users
+- Student and Admin/Professor roles
+- No real authentication required
 
-## React Compiler
+### Student Dashboard
+- View assigned assignments
+- View assignment description and due date
+- Open assignment Drive link
+- Submit assignments with confirmation
+- Track overall submission progress
+- Search assignments
+- Filter assignments by status
+- Overdue assignment highlighting
+- Student-specific assignment data
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Admin Dashboard
+- Create assignments
+- Edit assignments
+- Delete assignments
+- Assign assignments to selected students or all students
+- View student submission status
+- View class completion progress
+- Admins can manage assignments they created
 
-## Expanding the ESLint configuration
+### Data Persistence
+- Uses browser `localStorage`
+- Assignment changes and submission status remain after page refresh
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React.js
+- JavaScript
+- Tailwind CSS
+- Vite
+- Browser localStorage
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── data/
+│   └── mockData.js
+├── pages/
+│   ├── Login.jsx
+│   ├── StudentDashboard.jsx
+│   └── AdminDashboard.jsx
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
